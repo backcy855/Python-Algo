@@ -53,8 +53,29 @@
 # 리스트 추가
 # arr = []
 # for i in range(N):
-#   tmp = list(map(int, input(),split()))
+#   tmp = list(map(int, input().split()))
 #   arr.append(tmp)
 
 # print(arr)
+
+# 출력
+# print() 기본적으로 end라는 속성에 \n
+
+# arr = [1, 2, 3]
+# 1 2 3 으로 출력해보세요.
+
+# print(*arr)
+# T = 3
+# for tc in range(1, T + 1):
+#   # 블라블라 출력을 하자
+#      print('#{}'.format(tc))
+#      for i in arr:
+#           print(i, end=" ")
+#       print()
+
+# 1 1 2 3
+# 2 1 2 3
+# 3 1 2 3
+
+# print(arr[0], arr[1], arr[2])
 
